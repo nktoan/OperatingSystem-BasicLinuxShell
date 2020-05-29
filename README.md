@@ -9,14 +9,15 @@
 - Bien dien va chay chuong trinh:
   * Cai mot so thu vien can thiet truoc khi chay:
     -> Cai thu vien readline bang lenh Linux:
-       i.    sudo apt-get install libreadline-dev
+    
+    1. sudo apt-get install libreadline-dev
 
     -> Cai trinh bien dich gcc bang lenh Linux:
-       i.    sudo apt update
-       ii.   sudo apt install build-essential
-       iii.  sudo apt-get install manpages-dev
-       iv.   gcc --version (kiem tra trinh bien dich GCC da cai dat chua)
+    1. sudo apt update
+    2. sudo apt install build-essential
+    3. sudo apt-get install manpages-dev
+    4. gcc --version (kiem tra trinh bien dich GCC da cai dat chua)
 
   * Bien dich va chay chuong trinh (filename.c) tren terminal bang cac dong lenh sau:
-       i.    gcc -Wall filename.c -lreadline -o filename
-       ii.   ./filename
+  a. gcc -Wall filename.c -lreadline -o filename
+  b. ./filename
