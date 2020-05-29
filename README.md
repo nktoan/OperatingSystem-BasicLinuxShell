@@ -19,5 +19,7 @@
     4. gcc --version (kiem tra trinh bien dich GCC da cai dat chua)
 
   * Bien dich va chay chuong trinh (filename.c) tren terminal bang cac dong lenh sau:
-  a. gcc -Wall filename.c -lreadline -o filename
-  b. ./filename
+  
+  gcc -Wall filename.c -lreadline -o filename
+  
+  ./filename
